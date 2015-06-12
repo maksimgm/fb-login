@@ -70,3 +70,49 @@ nav{
   display: inline;
   float: left;
 }
+
+table{
+  height: 64px;
+  width: 392px;
+  background: silver;
+  float: right;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.top{
+  width: inherit;
+  height: 21px;
+  background: green;
+}
+#email-phone{
+  font-size: 12px;
+  color: white;
+  padding-left: 14px;
+  padding-bottom: 4px;
+  font-family: helvetica;
+  height: 17px;
+  width: 150px;
+}
+#password{ 
+  font-size: 12px;
+  color: white;
+  padding-left: 14px;
+  padding-bottom: 4px;
+  font-family: helvetica;
+  height: 17px;
+  width: 150px;
+}
+}
+.middle{
+  width: inherit;
+  height: 23px;
+  background: magenta;
+  display: table-cell;
+  border-collapse: separate;
+}
+.bottom{
+  width: inherit;
+  background: gold;
+  height: 20px;
+}
