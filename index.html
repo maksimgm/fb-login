@@ -11,30 +11,23 @@
         <div class="fb-logo">
           <a href="https://www.facebook.com/" height="36px" width="170px"><img src="fblogo.png"alt="Facebook logo" height="36px" width="170px"></a>
         </div>
-      
-       <div>
         
         <form action="https://www.facebook.com/" method="get">
-          <table>
-            <tr class="top">
-              <td id="email-phone">Email or Phone</td>
-              <td id="password">Password</td>
-            </tr>
-            <tr class="middle">
-              <td id="left-cell"></td>
-              <input type="text" name="username">
-              <td id="right-cell"></td>
-              <input type="text" name="password">
-            </tr>
-            <tr class="bottom">
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
+          <div class="top">
+            <div class="email-phone">Email or Phone</div>
+            <div class="password">Password</div>
+          </div>
+          <div class="middle">
+            <input type="text" class="enter-email" name="email">
+            <input type="text" class="enter-pw" name="password">
+            <input class="log-in" type="submit" value="Log in">
+          </div><!--  
+          <div class="bottom">
+            <input type="checkbox" value="log-in"><span>Keep me logged in</span>
+          </div>-->
         </form>  
         
-      </div>
-     </div>   
+      </div>   
     </nav>
   </body>
 </html>
