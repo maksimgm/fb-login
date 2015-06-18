@@ -63,22 +63,23 @@ nav{
 .main-nav{
   margin-left: auto;
   margin-right: auto;
-  height: inherit;
+  height: 77px;
   width: 980px;
+  padding-top: 13px;
 }
 
 .fb-logo{
-  margin-top: 17px;
   cursor: pointer;
   display: inline;
   float: left;
+  margin-top: 13px;
 }
 
 form {
   height: 64px;
   width: 392px;
   float: right;
-  margin-top: 13px;
+  /*margin-top: 13px;*/
 }
 
 .login-title{
@@ -94,20 +95,26 @@ form {
   font-family: helvetica;
   font-size: 12px;
   color: white;
+  margin-top: 2px;
 }
 
 .login-input{
   width: 392px;
   height: 21px;
+  margin-bottom: 5px;
+  clear: both;
+  background: green;
 }
 
 .login-input .enter-email, .login-input .enter-pw{
-  width: 140px;
+  width: 142px;
   height: 14px;
   margin-left: 12px;
-  border: 1px solid #1d2a5b;;
+  border-collapse: separate;
+  border: 1px solid #1d2a5b;
   font-family: helvetica;
   font-size: 12px;
+  background: yellow;
   padding: 3px 3px 4px 3px;
 }
 
@@ -118,6 +125,7 @@ form {
   float: right;
   text-align: center;
   padding: 1px 5px;
+  float: right;
 }
 
 .keep-logged-in{
