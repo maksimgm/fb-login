@@ -70,7 +70,6 @@ nav{
 
 .fb-logo{
   cursor: pointer;
-  display: inline;
   float: left;
   margin-top: 13px;
 }
@@ -79,7 +78,6 @@ form {
   height: 64px;
   width: 392px;
   float: right;
-  /*margin-top: 13px;*/
 }
 
 .login-title{
@@ -88,33 +86,32 @@ form {
 }
 
 .login-title .email-phone, .login-title .password{
-  height: 17px; 
+  height: 10px;
   width: 150px;
   float: left;
   padding: 0px 0px 4px 14px;
   font-family: helvetica;
   font-size: 12px;
   color: white;
-  margin-top: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 3px;
 }
 
 .login-input{
   width: 392px;
   height: 21px;
-  margin-bottom: 5px;
-  clear: both;
-  background: green;
+  margin-bottom: 5px; 
 }
 
 .login-input .enter-email, .login-input .enter-pw{
   width: 142px;
   height: 14px;
-  margin-left: 12px;
+  margin-left: 15px;
   border-collapse: separate;
   border: 1px solid #1d2a5b;
   font-family: helvetica;
   font-size: 12px;
-  background: yellow;
   padding: 3px 3px 4px 3px;
 }
 
@@ -124,19 +121,19 @@ form {
   width: 48px;
   float: right;
   text-align: center;
-  padding: 1px 5px;
   float: right;
 }
 
 .keep-logged-in{
   width: inherit;
   height: 19px;
-  margin-left: 11px;
+  margin-left: 12px;
   margin-top: 3px;
 }
 
 .keep-logged-in .checkbox{
   float: left;
+  margin-top: 4px;
 }
 
 .keep-logged-in .left, .keep-logged-in .right{
@@ -156,6 +153,7 @@ form {
 
 .right {
   float: left;
+  margin-left: 5px;
 }
 
 .right:hover{
