@@ -151,7 +151,7 @@ form {
   clear: right;
 }
 
-.right {
+.right{
   float: left;
   margin-left: 5px;
 }
@@ -159,3 +159,84 @@ form {
 .right:hover{
   text-decoration: underline;
 }
+
+/*Section*/
+section{
+  width: auto;
+  height: 600px;
+  background: #edf0f5;
+}
+
+.main-section{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-wrapper img{
+  margin-top: 21px;
+  float: left;
+}
+
+.right-wrapper{
+  height: 560px;
+  width: 399px;
+  background: tan;
+  float: right;
+  margin-top: 21px;
+}
+
+.right-wrapper h2{
+  font-size: 36px;
+  font-family: Freight Sans Bold;
+  margin-bottom: 5px;
+  text-align: left;
+  height: 43px;
+  width: inherit;
+  color: #333;
+}
+
+.right-wrapper h3{
+  font-size: 19px;
+  height: 23px;
+  width: inherit;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: inherit;
+}
+
+.signup-form{
+  width: 399px;
+  height: 469px;
+  background: green;
+  padding-bottom: 30px;
+}
+
+.signup-form form{
+  width: 399px;
+}
+.signup-form .firstname, .signup-form .lastname{
+  width: 194px;
+  height: 39px;
+  margin-bottom: 10px;
+}
+
+.firstname{
+  float: left;
+  clear: both;
+}
+
+.lastname{
+  float: right;
+  clear: both;
+}
+
+/*change value of form, so text disappears when clicked on
+customize rectangles
+figure out  
+
+*/
+
+
+
+
