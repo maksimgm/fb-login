@@ -173,22 +173,65 @@ section{
   margin-right: auto;
 }
 
-.left-wrapper img{
+.left-wrapper {
   margin-top: 21px;
   float: left;
+  width: 565px;
+  height: 367px;
+}
+
+.left-wrapper h1{
+  width: 408px;
+  height: 72px;
+  display: inline-block;
+  font-size: 26px;
+  padding: 42px 0px 24px 0px;
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+}
+.top-text, .middle-text, .bottom-text{
+  font-family: helvetica, arial, sans-serif; 
+  display: inline-block;
+  width: 440px;
+  vertical-align: middle;
+  font-size: 15px;
+  color: #666;
+  height: 41px;
+  padding-top: 15px;
+}
+
+.left-wrapper .top, .middle, .bottom{
+  height: 57px;
+  width: 565px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.left-wrapper span{
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 17px;
+  color: black;
+}
+
+.left-wrapper img{
+  height: 43px;
+  width: 48px;
+  display: inline-block;
+  float: left;
+  margin-right: 23px;
 }
 
 .right-wrapper{
   height: 560px;
-  width: 399px;
-  
+  width: 399px; 
   float: right;
   margin-top: 21px;
 }
 
 .right-wrapper h2{
   font-size: 36px;
-  font-family: freight sans;
+  font-family: freight sans bold;
   /*find correct font*/
   margin-bottom: 5px;
   text-align: left;
@@ -209,7 +252,7 @@ section{
 .signup-form{
   width: 399px;
   height: 469px;
-  background: green;
+  
   padding-bottom: 30px;
 }
 
@@ -250,6 +293,7 @@ section{
 .month, .year, .day{
   text-align: left;
   float: left;
+  -webkit-appearance: menulist-button;
 }
 .signup-form .month{
   width: 65px;
@@ -265,7 +309,7 @@ section{
   width: 60px;
   height: 30px;
 }
-/*unable to change height...*/
+
 #bday-question{
   height: 28px;
   width: 150px;
@@ -273,18 +317,13 @@ section{
   float: left;
   font-size: 11px;
   text-align: left;
+  line-height: 1.34;
   cursor: pointer;
   text-decoration: none;
   color: #3b5998;
   font-family: helvetica;
 }
-/*add link to a tag in html--line 212*/
 
-#bday-question:hover{
-  /*hover not working*/
-}
-
-/*Any way to display box onclick using css??*/
 .signup-form .sex{
   display: inline-block;
   float: left;
@@ -300,8 +339,70 @@ section{
 input[type="radio"]{
   margin-right: 5px;
 }
-/*change value of form, so text disappears when clicked on
-customize rectangles
-figure out  
 
-*/
+.terms-conditions{
+  height: 28px;
+  width: 316px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+/*When I inspect the above element, it shows that the div
+container is on .signup-form. However, when I add a margin
+to .terms-conditions, it works properly and creates a margin
+between the radio buttons and the .terms-conditions container.
+Why is the inspect element displaying it improperly???*/
+.terms-conditions p{
+  display: inline-block;
+  font-family:  helvetica, arial, sans-serif;
+  color: #777;
+  font-size: 11px;
+  line-height: 1.28; 
+}
+
+.terms-conditions a{
+  text-decoration: none;
+  color: #3b5998;
+}
+
+.terms-conditions a:hover{
+  text-decoration: underline;
+}
+
+.submit-container{
+  display: block;
+  width: 399px;
+  height: 51px;
+}
+
+.submit-button{
+  width: 194px;
+  height: 31px;
+  margin-top: 50px;
+  background: -webkit-linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  -webkit-box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  -webkit-border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  padding: 7px 20px;
+  font-size: 12px;
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.create-page{
+  height: 33px;
+  width: 399px;
+  border-top: 1px solid #a0a9c0;
+}
+.create-page p{
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+/*same issue occured as in .terms-conditions*/
