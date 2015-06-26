@@ -225,7 +225,7 @@ section{
 .right-wrapper{
   height: 560px;
   width: 399px; 
-  float: right;
+  float: left;
   margin-top: 21px;
 }
 
@@ -252,7 +252,6 @@ section{
 .signup-form{
   width: 399px;
   height: 469px;
-  
   padding-bottom: 30px;
 }
 
@@ -346,11 +345,7 @@ input[type="radio"]{
   margin-top: 11px;
   margin-bottom: 11px;
 }
-/*When I inspect the above element, it shows that the div
-container is on .signup-form. However, when I add a margin
-to .terms-conditions, it works properly and creates a margin
-between the radio buttons and the .terms-conditions container.
-Why is the inspect element displaying it improperly???*/
+
 .terms-conditions p{
   display: inline-block;
   font-family:  helvetica, arial, sans-serif;
@@ -398,11 +393,12 @@ Why is the inspect element displaying it improperly???*/
   height: 33px;
   width: 399px;
   border-top: 1px solid #a0a9c0;
+  background: yellow;
+  float: left;
 }
+
 .create-page p{
   color: #666;
   font-size: 13px;
   font-weight: bold;
-  margin-top: 25px;
 }
-/*same issue occured as in .terms-conditions*/
